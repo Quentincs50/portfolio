@@ -269,7 +269,7 @@ const projects = [
   {
     name: "Job IT",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Application web permettant aux utilisateurs de rechercher des offres d'emploi, de consulter les fourchettes de salaires estimées pour les postes et de localiser les emplois disponibles en fonction de leur localisation actuelle.",
     tags: [
       {
         name: "react",
@@ -290,7 +290,7 @@ const projects = [
   {
     name: "Trip Guide",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Une plateforme de réservation de voyages complète qui permet aux utilisateurs de réserver des vols, des hôtels et des voitures de location, et propose des recommandations personnalisées pour les destinations populaires.",
     tags: [
       {
         name: "nextjs",
