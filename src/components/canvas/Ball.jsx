@@ -12,7 +12,11 @@ import CanvasLoader from "../Loader";
 
 const Ball = (props) => {
   const [decal] = useTexture([props.imgUrl]);
-  
+  const isTextureReady =
+      decal &&
+      decal.image &&
+      decal.image.width > 0 &&
+      decal.image.height > 0
 
   return (
     <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
@@ -26,13 +30,16 @@ const Ball = (props) => {
           polygonOffsetFactor={-5}
           flatShading
         />
-        <Decal
-          position={[0, 0, 1]}
-          rotation={[2 * Math.PI, 0, 6.25]}
-          scale={1}
-          map={decal}
-          flatShading
+        {isTextureReady && (
+            <Decal
+            position={[0, 0, 1]}
+            rotation={[2 * Math.PI, 0, 6.25]}
+            scale={1}
+            map={decal}
+            flatShading
         />
+        )}
+
       </mesh>
     </Float>
   );
@@ -41,7 +48,7 @@ const Ball = (props) => {
 const BallCanvas = ({ icon }) => {
   return (
     <Canvas
-      frameloop='demand'
+      frameloop='always'
       dpr={[1, 2]}
       gl={{ preserveDrawingBuffer: true }}
     >

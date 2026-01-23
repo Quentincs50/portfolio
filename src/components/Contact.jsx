@@ -82,8 +82,6 @@ const Contact = () => {
           console.error("Erreur d'envoi:", error);
           setToastType('error');
           setToastOpen(true);
-
-
         }
       );
   };

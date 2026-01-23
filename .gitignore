@@ -1,8 +1,7 @@
-# Node
-node_modules/
-
-# Build
-dist/
+node_modules
+dist
+dist-ssr
+*.local
 
 # Env
 .env
@@ -10,9 +9,13 @@ dist/
 .env.*.local
 
 # Logs
+logs
+*.log
 npm-debug.log*
 yarn-debug.log*
+yarn-error.log*
 pnpm-debug.log*
+lerna-debug.log*
 
 # OS
 .DS_Store
