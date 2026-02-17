@@ -33,7 +33,7 @@ import sanofi from "./company/sanofi.png";
 import heroSoccerArena from "./hero_soccer_arena.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import resume from "./resume.pdf";
+import resume from "./CV_Quentin_Sanchez.pdf";
 
 export {
   logo,

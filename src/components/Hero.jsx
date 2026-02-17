@@ -31,7 +31,7 @@ const Hero = () => {
                       </p>
                       <div className='flex-shrink-0 mt-2 sm:mt-0 green-pink-gradient p-[1px] rounded-[20px] shadow-card'>
                           <button className='bg-tertiary px-6 py-3 rounded-[20px] hover:bg-opacity-80 transition-all'>
-                              <a href={resume} download='resume' className='text-white font-medium'>
+                              <a href={resume} download='cv_quentin_sanchez' className='text-white font-medium'>
                                   Télécharger mon CV
                               </a>
                           </button>

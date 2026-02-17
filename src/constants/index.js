@@ -8,7 +8,6 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
@@ -22,10 +21,8 @@ import {
   heroSoccerArena,
   jobit,
   tripguide,
-  threejs,
   java,
   python,
-  ansible,
   jenkins,
 } from "../assets";
 
@@ -252,7 +249,7 @@ const projects = [
       },
     ],
     image: heroSoccerArena,
-    source_code_link: "https://github.com/Quentincs50/HeroSoccer-Arena",
+    source_code_link: "https://github.com/Quentincs50/DevLab/tree/main/Hero%20Soccer%20Arena",
   },
   {
     name: "Job IT",
@@ -273,7 +270,7 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Quentincs50/DevLab",
   },
   {
     name: "Trip Guide",
@@ -294,7 +291,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Quentincs50/DevLab",
   },
 ];
 
