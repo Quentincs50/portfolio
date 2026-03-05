@@ -275,7 +275,7 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/Quentincs50/DevLab",
+    source_code_link: "https://github.com/Quentincs50/Talentio",
   },
   {
     name: "Talky",
