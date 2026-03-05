@@ -24,6 +24,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import rust from "./tech/rust.svg";
 
 import clb from "./company/leon-berard.png";
 import carso from "./company/carso.png";
@@ -32,8 +33,8 @@ import sanofi from "./company/sanofi.png";
 
 import heroSoccerArena from "./hero_soccer_arena.png";
 import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import resume from "./CV_Quentin_Sanchez.pdf";
+import talky from "./talky.png";
 
 export {
   logo,
@@ -67,6 +68,7 @@ export {
   sanofi,
   heroSoccerArena,
   jobit,
-  tripguide,
   resume,
+  talky,
+  rust,
 };

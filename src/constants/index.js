@@ -20,10 +20,11 @@ import {
   carso,
   heroSoccerArena,
   jobit,
-  tripguide,
   java,
   python,
   jenkins,
+  talky,
+  rust,
 } from "../assets";
 
 export const navLinks = [
@@ -246,53 +247,56 @@ const projects = [
       {
         name: "java",
         color: "blue-text-gradient",
+        icon: java,
       },
     ],
     image: heroSoccerArena,
     source_code_link: "https://github.com/Quentincs50/DevLab/tree/main/Hero%20Soccer%20Arena",
   },
   {
-    name: "Job IT",
+    name: "Talentio",
     description:
       "Application web permettant aux utilisateurs de rechercher des offres d'emploi, de consulter les fourchettes de salaires estimées pour les postes et de localiser les emplois disponibles en fonction de leur localisation actuelle.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
+        icon: reactjs,
       },
       {
-        name: "restapi",
+        name: "mongo",
         color: "green-text-gradient",
+        icon: mongodb,
       },
       {
-        name: "scss",
+        name: "node",
         color: "pink-text-gradient",
+        icon: nodejs,
       },
     ],
     image: jobit,
     source_code_link: "https://github.com/Quentincs50/DevLab",
   },
   {
-    name: "Trip Guide",
-    description:
-      "Une plateforme de réservation de voyages complète qui permet aux utilisateurs de réserver des vols, des hôtels et des voitures de location, et propose des recommandations personnalisées pour les destinations populaires.",
+    name: "Talky",
+    description: "Talky est une plateforme de messagerie temps réel inspirée de Discord.\n" +
+        "Elle permet aux utilisateurs de créer et gérer des serveurs ainsi que des canaux thématiques afin d’organiser les conversations.\n" +
+        "Grâce à l’intégration de WebSockets côté backend, les messages sont synchronisés instantanément entre tous les participants.",
     tags: [
       {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "rust",
         color: "green-text-gradient",
+        icon: rust,
       },
       {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "reactjs",
+        color: "blue-text-gradient",
+        icon: reactjs,
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/Quentincs50/DevLab",
-  },
+    image: talky,
+    source_code_link: "https://github.com/Quentincs50/Talky",
+  }
 ];
 
 export { services, technologies, experiences, testimonials, projects };
