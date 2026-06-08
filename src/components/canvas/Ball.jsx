@@ -46,6 +46,8 @@ const Ball = (props) => {
 };
 
 const BallCanvas = ({ icon }) => {
+  console.log("imgUrl:", icon);
+
   return (
     <Canvas
       frameloop='always'

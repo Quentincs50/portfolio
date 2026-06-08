@@ -54,8 +54,8 @@ const ProjectCard = ({
         <div className='mt-4 flex flex-wrap gap-2'>
             <div className="flex justify-center md:justify-start">
                 {tags.map((tag) => (
-                    <div className="z-20 -mr-2 flex h-8 w-8 items-center justify-center rounded-full border-0 bg-white">
-                        <img height="400" width="400" alt={`${tag.name}`} className="h-6 w-6 object-contain filter dark:invert" src={`${tag.icon}`}/>
+                    <div className="z-20 -mr-2 flex h-8 w-8 items-center justify-center rounded-full border-0 bg-white" key={tag.name}>
+                        <img height="400" width="400" alt={`${tag.name}`} className="h-6 w-6 object-contain" src={`${tag.icon}`}/>
                     </div>
                 ))}
             </div>
@@ -87,7 +87,7 @@ const Works = () => {
 
       <div className='mt-20 flex flex-wrap gap-7'>
         {projects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
+          <ProjectCard key={project.id || index} index={index} {...project} />
         ))}
       </div>
     </>

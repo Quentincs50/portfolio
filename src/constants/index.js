@@ -318,7 +318,7 @@ const projects = [
     tags: [
       {
         name: "postgres",
-        color: "blue-text-gradient",
+        color: "orange-text-gradient",
         icon: postgres,
       },
       {
@@ -328,7 +328,7 @@ const projects = [
       },
       {
         name: "fastify",
-        color: "green-text-gradient",
+        color: "gray-text-gradient",
         icon: fastify,
       },
       {
@@ -356,7 +356,7 @@ const projects = [
       },
       {
         name: "ollama",
-        color: "black-text-gradient",
+        color: "white-text-gradient",
         icon: ollama,
       },
       {
