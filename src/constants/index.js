@@ -29,6 +29,12 @@ import {
   fastify,
   kubernetes,
   cvscore,
+  streamlit,
+  chromadb,
+  ollama,
+  langchain,
+  mistral,
+  chatbot,
 } from "../assets";
 
 export const navLinks = [
@@ -334,12 +340,50 @@ const projects = [
         name: "kubernetes",
         color: "blue-text-gradient",
         icon: kubernetes,
-      }
-
+      },
     ],
     image: cvscore,
     source_code_link: "https://github.com/Quentincs50/ResumeAnalyzer",
-  }
+  },
+  {
+    name: "ColdBot",
+    description: " Prototype d'assistant RAG (Retrieval-Augmented Generation) pour aider les techniciens de maintenance à diagnostiquer des pannes en s'appuyant sur l'historique des interventions et les fiches techniques équipements.",
+    tags: [
+      {
+        name: "langchain",
+        color: "blue-text-gradient",
+        icon: langchain,
+      },
+      {
+        name: "ollama",
+        color: "black-text-gradient",
+        icon: ollama,
+      },
+      {
+        name: "mistral",
+        color: "orange-text-gradient",
+        icon: mistral,
+      },
+      {
+        name: "streamlit",
+        color: "red-text-gradient",
+        icon: streamlit,
+      },
+      {
+        name: "chromadb",
+        color: "pink-text-gradient",
+        icon: chromadb,
+      },
+      {
+        name: "python",
+        color: "blue-text-gradient",
+        icon: python,
+      },
+    ],
+    image: chatbot,
+    source_code_link: "https://github.com/Quentincs50/coldorg-rag-assistant",
+  },
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };

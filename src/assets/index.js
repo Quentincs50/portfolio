@@ -26,8 +26,13 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import rust from "./tech/rust.svg";
 import postgres from "./tech/postgresql.svg";
-import fastify from "./tech/fastify.svg"
-import kubernetes from "./tech/kubernetes.svg"
+import fastify from "./tech/fastify.svg";
+import kubernetes from "./tech/kubernetes.svg";
+import langchain from "./tech/langchain-color.svg";
+import ollama from "./tech/ollama.png";
+import mistral from "./tech/mistral-color.svg";
+import chromadb from "./tech/chromadb.svg";
+import streamlit from "./tech/streamlit.svg"
 
 import clb from "./company/leon-berard.png";
 import carso from "./company/carso.png";
@@ -39,6 +44,7 @@ import jobit from "./jobit.png";
 import resume from "./CV_Quentin_Sanchez.pdf";
 import talky from "./talky.png";
 import cvscore from "./cvscore.png"
+import chatbot from "./chatbot.png";
 
 export {
   logo,
@@ -79,4 +85,10 @@ export {
   fastify,
   kubernetes,
   cvscore,
+  streamlit,
+  chromadb,
+  ollama,
+  langchain,
+  mistral,
+  chatbot,
 };
