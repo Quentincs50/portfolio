@@ -25,6 +25,9 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import rust from "./tech/rust.svg";
+import postgres from "./tech/postgresql.svg";
+import fastify from "./tech/fastify.svg"
+import kubernetes from "./tech/kubernetes.svg"
 
 import clb from "./company/leon-berard.png";
 import carso from "./company/carso.png";
@@ -35,6 +38,7 @@ import heroSoccerArena from "./hero_soccer_arena.png";
 import jobit from "./jobit.png";
 import resume from "./CV_Quentin_Sanchez.pdf";
 import talky from "./talky.png";
+import cvscore from "./cvscore.png"
 
 export {
   logo,
@@ -71,4 +75,8 @@ export {
   resume,
   talky,
   rust,
+  postgres,
+  fastify,
+  kubernetes,
+  cvscore,
 };

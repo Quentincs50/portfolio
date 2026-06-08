@@ -25,6 +25,10 @@ import {
   jenkins,
   talky,
   rust,
+  postgres,
+  fastify,
+  kubernetes,
+  cvscore,
 } from "../assets";
 
 export const navLinks = [
@@ -293,9 +297,48 @@ const projects = [
         color: "blue-text-gradient",
         icon: reactjs,
       },
+      {
+        name: "docker",
+        color: "blue-text-gradient",
+        icon: docker,
+      }
     ],
     image: talky,
     source_code_link: "https://github.com/Quentincs50/Talky",
+  },
+  {
+    name: "CVSCORE",
+    description: "Application full-stack permettant aux utilisateurs de soumettre leur CV et d'obtenir un feedback détaillé généré par IA, adapté à une offre d'emploi spécifique.",
+    tags: [
+      {
+        name: "postgres",
+        color: "blue-text-gradient",
+        icon: postgres,
+      },
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+        icon: reactjs,
+      },
+      {
+        name: "fastify",
+        color: "green-text-gradient",
+        icon: fastify,
+      },
+      {
+        name: "docker",
+        color: "blue-text-gradient",
+        icon: docker,
+      },
+      {
+        name: "kubernetes",
+        color: "blue-text-gradient",
+        icon: kubernetes,
+      }
+
+    ],
+    image: cvscore,
+    source_code_link: "https://github.com/Quentincs50/ResumeAnalyzer",
   }
 ];
 
